@@ -1,0 +1,12 @@
+@media screen and (min-width: 600px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+  }
+  .navbar {
+    background: linear-gradient(127deg, rgba(131,58,180,1) 0%,
+                rgba(214,48,48,1) 50%,
+                rgba(232,156,49,1) 100%);
+  }
+}

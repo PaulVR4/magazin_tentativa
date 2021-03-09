@@ -1,0 +1,44 @@
+@media screen and (min-width: 1000px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+  }
+  .navbar {
+    display: none;
+  }
+  .header-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .big-menu {
+    display: block;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  li > a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 2vw;
+  }
+  .telefon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .telefon > img {
+    height: 40px;
+    width: 40px;
+  }
+  .telefon > a {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
